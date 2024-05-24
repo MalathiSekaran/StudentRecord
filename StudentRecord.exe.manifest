@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="StudentRecord.exe" version="1.0.0.1" publicKeyToken="2f263a9a6909c1af" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="StudentRecord" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="StudentRecord.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StudentRecord.exe" size="23984">
+      <assemblyIdentity name="StudentRecord" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NkM16tSNgZMLRQAf6u2LCLjeefDPfAIA8nx0TYNXNcM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="StudentRecord.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MALATHI\Admin" issuerKeyHash="aea0e1349afb88ff675cc035da820cd4ae7c9dfa" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cNTM96zbeJv7sEaE379b9+FXHkTl00l4fXM0QCk2p/Y=</DigestValue></Reference></SignedInfo><SignatureValue>KhSUmFstTppNTzbFdJpz2KPPUHA9iIAf/yaAmpiztgtiD5AeXjfCI4G2ytvFhcoxAeSqGHefPzj3dXjJmv+at6mb0pnHYm9AIprJQFTYwsIUB82U65EsubhL9WdHI63PpWQ6NUpFdXoYE81hFaiYZP9zHd1PZ/xJM/8wqJXCuEU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nO4YqzSqVF/8pHrlcqb+l7bTWE0EAyWuxynvT57uU8E6syb+sdQL5YYTecDMPZ744FcbtkHBMTY8QBglr+SPpMteQl0X2YoEz2+P5Mb3fJV6KGeEStlhKOphA5vsatich7SYZ0F7+35WFTtgFsuMwD/FQxCD0myb5LhvdASJnak=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f6a736294034737d7849d3e5441e57e1f75bbfdf8446b0fb9b78dbacf7ccd470" Description="" Url=""><as:assemblyIdentity name="StudentRecord.exe" version="1.0.0.1" publicKeyToken="2f263a9a6909c1af" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MALATHI\Admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2FcBP5HXWanr3htwh9D6tSxVabPMZqMMcGBnyWs2A7M=</DigestValue></Reference></SignedInfo><SignatureValue>MLU+VG+gQkLPwS0p3uBIzXf7cUFDVlbeGI4Io9kgD93IChLP27x4DfXrHoC4ITIU5bZKb/MGrIBWUMctc8h5BF45xUAciUUteaxFL8v+E9NwCSDx4yxGuUgAqpnkVsovNp/f6XlQZ1N8vPgI4oq2jkZuENRWZr71t1gc81RYLNQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nO4YqzSqVF/8pHrlcqb+l7bTWE0EAyWuxynvT57uU8E6syb+sdQL5YYTecDMPZ744FcbtkHBMTY8QBglr+SPpMteQl0X2YoEz2+P5Mb3fJV6KGeEStlhKOphA5vsatich7SYZ0F7+35WFTtgFsuMwD/FQxCD0myb5LhvdASJnak=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQMqNwLzwYnKtFY3OVcotaZTANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoATQBBAEwAQQBUAEgASQBcAEEAZABtAGkAbjAeFw0yNDA1MjMwNDA3MTJaFw0yNTA1MjMxMDA3MTJaMCUxIzAhBgNVBAMeGgBNAEEATABBAFQASABJAFwAQQBkAG0AaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCc7hirNKpUX/ykeuVypv6XttNYTQQDJa7HKe9Pnu5TwTqzJv6x1AvlhhN5wMw9nvjgVxu2QcExNjxAGCWv5I+ky15CXRfZigTPb4/kxvd8lXooZ4RK2WEo6mEDm+xq2JyHtJhnQXv7flYVO2AWy4zAP8VDEIPSbJvkuG90BImdqQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBADmGyOKjouaM14bzAxGqealQq9/f6sZ/APLpUO9Z0yK3RAoLSdrjAjVvPmCaUIZ4ffGbxeBJhSM6xtSGbLLXKfUwJOm6DjCFWO1ycx1pven4E1KljY49plDIfEthIhR0W21j4F1H9pO6t5SqDmEZMoWDFxsVp+aV2MgLiQbYotaf</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
